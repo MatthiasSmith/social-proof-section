@@ -121,7 +121,7 @@ main {
 .author-row__avatar {
   margin-right: 1.6rem;
   height: 41px;
-  clip-path: circle();
+  border-radius: 50%;
 }
 
 .author-row__name {
