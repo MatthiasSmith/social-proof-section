@@ -71,6 +71,7 @@ main {
   color: var(--dark-grayish-magenta);
   line-height: 1.62em;
   font-size: 14px;
+  font-weight: var(--font-weight-medium);
   text-align: center;
 }
 
@@ -125,7 +126,7 @@ main {
 
 .author-row__name {
   font-size: 90%;
-  font-weight: var(--font-weight-medium);
+  font-weight: var(--font-weight-bold);
   line-height: 1.62rem;
 }
 
@@ -137,6 +138,7 @@ main {
 .testimonials-list__quote {
   margin-top: var(--spacing-2);
   font-size: 83%;
+  font-weight: var(--font-weight-medium);
   line-height: 1.62em;
 }
 
@@ -150,7 +152,7 @@ main {
 
 /* attribution styles */
 .attribution {
-  margin-bottom: 2rem;
+  padding-bottom: 2rem;
   font-size: 11px;
   text-align: center;
 }
@@ -247,7 +249,7 @@ main {
   }
 
   .testimonials-list__quote {
-    font-size: 87%;
+    font-size: 85%;
     margin-top: 2rem;
   }
 }
@@ -255,7 +257,7 @@ main {
 /* desktop */
 @media (min-width: 1024px) {
   main {
-    background-position: 390% 100%;
+    background-position: 100% 100%;
   }
 
   .container {
@@ -263,11 +265,11 @@ main {
   }
 
   .container--top {
-    padding-top: 8rem;
+    padding-top: 9rem;
   }
 
   .container--bottom {
-    padding-bottom: var(--desktop-padding);
+    padding-bottom: 5rem;
   }
 
   .intro-section,
@@ -313,7 +315,7 @@ main {
 
   .testimonials-list__list-item {
     max-width: unset;
-    padding: 2.5rem var(--spacing-2);
+    padding: 2.5rem 2rem;
   }
 
   .testimonials-list__list-item:not(:last-of-type) {
@@ -321,6 +323,6 @@ main {
   }
 
   .testimonials-list__list-item:last-of-type {
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
 }
